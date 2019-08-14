@@ -18,6 +18,7 @@ class GitHubRepository {
 
 let myRepo = new GitHubRepository("insideoutzombie", "how to save a zombie", "like a game but real", 9832481298321481);
 console.log(myRepo);
+// Partial Credit : You did not use the method you created to print each property of the instance of your class
 
 // ### Problem 2:
 // Create a Movie class with the following properties: movieName, rating, and yearReleased.
@@ -29,6 +30,7 @@ class Movie {
     this.rating_props = rating;
     this.yearReleased_props = yearReleased;
   }
+  // Partial Credit : You did not create two methods to update the rating and year
   magicSauce() {
     return console.log(this.movieName_props);
            console.log(this.rating_props);
@@ -41,7 +43,7 @@ newMovie.rating_props = 6;
 newMovie.yearReleased_props = 2012;
 console.log(newMovie);
 
-// ### Challenge 1:
+// ### Challenge 1: INCOMPLETE
 // Create a Person class with three properties: name, weight, and height.
 // Create a method that can calculate the BMI of a person using the formula below.
 // Create an object of the class and use the function.
@@ -61,7 +63,7 @@ let newPerson = new Person("Gangster", 178, 120);
 console.log(newPerson);
 
 
-// ### Challenge 2:
+// ### Challenge 2: INCOMEPLETE
 // Create a Bank class with the the name and balance properties.
 // Afterwards, create an object of the class and follow the instructions below:
 // - Creates an account named "Matt's account" with the balance of 1000
@@ -82,7 +84,7 @@ class Bank {
 
 let newMatt = new Bank("Matt's account", 1000);
 let myAccount = new Bank("My account", 0);
-console.log(newMatt);
+console.log(newMatt); 
 console.log(myAccount);
 
 

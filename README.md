@@ -1,5 +1,10 @@
 # JavaScript-classes_objects-cw
 
+Partial credit on prob 1 and prob 2. 
+See index.js for comments.
+Be sure to read the directions. 
+Score : 2/5
+
 ### Problem 1:
 Create a GitHubRepository class with properties userName, fileName, descriptionOfRepository, and code. Create a function that prints all properties. Create an object of the class and use the function.
 
